@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal con fotos y pestañas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .tab-buttons {
+            display: flex;
+            background-color: #0077cc;
+        }
+
+        .tab-buttons button {
+            flex: 1;
+            padding: 15px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .tab-buttons button.active {
+            background-color: #005fa3;
+        }
+
+        .tab-content {
+            flex: 1;
+            padding: 20px;
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        img.foto-perfil {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="tab-container">
+    <div class="tab-buttons">
+        <button class="tab-link active" onclick="openTab(event, 'inicio')">Inicio</button>
+        <button class="tab-link" onclick="openTab(event, 'proyectos')">Proyectos</button>
+        <button class="tab-link" onclick="openTab(event, 'archivos')">Archivos</button>
+        <button class="tab-link" onclick="openTab(event, 'contacto')">Contacto</button>
+    </div>
+
+    <div id="inicio" class="tab-content active">
+        <h2>Sobre mí</h2>
+        <img src="img/foto.jpg" alt="Foto de perfil" class="foto-perfil">
+        <p>Hola, soy Unai Caja López. Soy Matemático por estudios y por devoción.</p>
+    </div>
+
+    <div id="proyectos" class="tab-content">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><strong>Portafolio Web:</strong> Una colección de mis trabajos.</li>
+            <li><strong>Blog Técnico:</strong> Artículos sobre matemáticas.</li>
+            <li><strong>App de Tareas:</strong> Aplicación para gestionar tareas diarias.</li>
+        </ul>
+    </div>
+
+    <div id="archivos" class="tab-content">
+        <h2>Mis Archivos</h2>
+        <ul id="lista-archivos">
+            <li>Cargando archivos...</li>
+        </ul>
+    </div>
+
+    <div id="contacto" class="tab-content">
+        <h2>Contacto</h2>
+        <p>Puedes escribirme a: <a href="mailto:unaicaja@gmail.com">unaicaja@gmail.com</a></p>
+    </div>
+</div>
+
+<script>
+    function openTab(evt, tabId) {
+        const contents = document.querySelectorAll('.tab-content');
+        const buttons = document.querySelectorAll('.tab-link');
+
+        contents.forEach(content => content.classList.remove('active'));
+        buttons.forEach(button => button.classList.remove('active'));
+
+        document.getElementById(tabId).classList.add('active');
+        evt.currentTarget.classList.add('active');
+    }
+
+    async function cargarArchivosDesdeJSON() {
+        try {
+            const response = await fetch('archivos.json');
+            const archivos = await response.json();
+
+            const lista = document.getElementById('lista-archivos');
+            lista.innerHTML = '';
+
+            archivos.forEach(archivo => {
+                const li = document.createElement('li');
+                li.innerHTML = `<a href="${archivo.ruta}" target="_blank">${archivo.nombre}</a>`;
+                lista.appendChild(li);
+            });
+        } catch (error) {
+            document.getElementById('lista-archivos').innerHTML = '<li>Error al cargar archivos.</li>';
+            console.error(error);
+        }
+    }
+
+    // Cargar archivos al iniciar
+    cargarArchivosDesdeJSON();
+</script>
+
+</body>
+</html>
