@@ -3,7 +3,7 @@ title: "Surface discretization in optical aspheres production"
 collection: publications
 category: manuscripts
 permalink: /2025-06-10-surface-discretization-in-optical-aspheres-production
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-06-10
 venue: 'Optics Express'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
