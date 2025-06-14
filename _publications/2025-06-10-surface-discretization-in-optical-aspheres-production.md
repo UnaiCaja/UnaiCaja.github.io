@@ -7,7 +7,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2025-06-10
 venue: 'Optics Express'
 slidesurl: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-12-25767&id=572789'
-paperurl: 'http://unaicaja.github.io/files/surface.pdf'
+paperurl: 'http://unaicaja.github.io/files/Optica.pdf'
 
 citation: 'Francisco Unai Caja, Sergio Barbero, and María del Mar González, "Surface discretization in optical aspheres production," Opt. Express 33, 25767-25782 (2025)'
 ---
