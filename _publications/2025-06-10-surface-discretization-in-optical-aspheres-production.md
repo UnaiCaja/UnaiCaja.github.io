@@ -3,10 +3,10 @@ title: "Surface discretization in optical aspheres production"
 collection: publications
 category: manuscripts
 permalink: /2025-06-10-surface-discretization-in-optical-aspheres-production
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-06-10
 venue: 'Optics Express'
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-12-25767&id=572789'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Francisco Unai Caja, Sergio Barbero, and María del Mar González, "Surface discretization in optical aspheres production," Opt. Express 33, 25767-25782 (2025)'

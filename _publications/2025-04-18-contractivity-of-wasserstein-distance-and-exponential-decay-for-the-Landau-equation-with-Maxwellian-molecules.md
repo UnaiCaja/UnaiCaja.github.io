@@ -3,7 +3,7 @@ title: "Contractivity of Wasserstein distance and exponential decay for the Land
 collection: publications
 category: preprints
 permalink: /publication/2024-02-17-paper-title-number-4
-# excerpt: 'This paper is about fixing template issue #693.'
+excerpt: ' '
 date: 2025-04-18
 venue: 'ArXiv'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
