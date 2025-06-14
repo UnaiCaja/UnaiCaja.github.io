@@ -269,8 +269,8 @@ def parse_publications(pub_dir):
                 "name": front_matter.get('title', ''),
                 "publisher": front_matter.get('venue', ''),
                 "releaseDate": front_matter.get('date', ''),
-                "website": front_matter.get('paperurl', ''),
-                "summary": front_matter.get('excerpt', '')
+                "website": front_matter.get('paperurl', '')  #,
+                # "summary": front_matter.get('excerpt', '')
             }
             
             publications.append(pub_entry)
@@ -298,8 +298,8 @@ def parse_talks(talks_dir):
                 "name": front_matter.get('title', ''),
                 "event": front_matter.get('venue', ''),
                 "date": front_matter.get('date', ''),
-                "location": front_matter.get('location', ''),
-                "description": front_matter.get('excerpt', '')
+                "location": front_matter.get('location', '') #,
+                #"description": front_matter.get('excerpt', '')
             }
             
             talks.append(talk_entry)
@@ -327,8 +327,8 @@ def parse_teaching(teaching_dir):
                 "course": front_matter.get('title', ''),
                 "institution": front_matter.get('venue', ''),
                 "date": front_matter.get('date', ''),
-                "role": front_matter.get('type', ''),
-                "description": front_matter.get('excerpt', '')
+                "role": front_matter.get('type', '') #,
+                #"description": front_matter.get('excerpt', '')
             }
             
             teaching.append(teaching_entry)
@@ -356,8 +356,8 @@ def parse_portfolio(portfolio_dir):
                 "name": front_matter.get('title', ''),
                 "category": front_matter.get('collection', 'portfolio'),
                 "date": front_matter.get('date', ''),
-                "url": front_matter.get('permalink', ''),
-                "description": front_matter.get('excerpt', '')
+                "url": front_matter.get('permalink', '') #,
+                #"description": front_matter.get('excerpt', '')
             }
             
             portfolio.append(portfolio_entry)
