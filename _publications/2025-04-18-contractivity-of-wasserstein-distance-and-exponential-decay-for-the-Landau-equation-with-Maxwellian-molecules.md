@@ -1,7 +1,7 @@
 ---
 title: "Contractivity of Wasserstein distance and exponential decay for the Landau equation with Maxwellian molecules"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/1
 excerpt: 'This paper number 1'
 date: 2025-04-18
