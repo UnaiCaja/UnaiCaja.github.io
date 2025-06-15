@@ -2,10 +2,11 @@
 title: "Contractivity of Wasserstein distance and exponential decay for the Landau equation with Maxwellian molecules"
 collection: publications
 category: preprints
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/
 excerpt: ' '
 date: 2025-04-18
 venue: 'ArXiv'
+slidesurl: 'https://www.google.com'
 paperurl: 'http://unaicaja.github.io/files/contractivity.pdf'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
