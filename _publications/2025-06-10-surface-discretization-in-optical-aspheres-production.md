@@ -2,8 +2,8 @@
 title: "Surface discretization in optical aspheres production"
 collection: publications
 category: manuscripts
-permalink: /publications/
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: /publication/2
+excerpt: 'This paper is about the number 2.'
 date: 2025-06-10
 venue: 'Optics Express'
 slidesurl: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-12-25767&id=572789'
