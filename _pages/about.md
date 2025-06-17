@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-* Interested in mathematics since the moment I learned you can play and interact with it.
-* Undergrad in the university of Murcia, 
-* Master in universidad autonoma de madrid and PhD at UT austin
-* various interests across the years.
-* My interests consolidated around applied mathematics and specially PDEs.
-* Currently, I research interactions between PDEs (kinetic equations) and optimal transport theory.
-$$1+1 = \sqrt{2}$$
+I have always felt passionate about research. Over the years, my interests have concentrated in applied mathematics. I did my undergraduate studies at the University of Murcia (Spain), finished a Master in the Autonomous University of Madrid (Spain) and moved to Austin (Texas, US) to pursue a PhD, which is my current occupation.
+
+At the moment, my interests are focussed on the study of partial differential equations (PDEs) arising from physics. Particularly, I am researching the interplay between kinetic equations and optimal transport theory under the supervision of [Maria Gualdani](https://web.ma.utexas.edu/users/gualdani/) and [Matias Delgadino](https://zaytam.github.io/).
