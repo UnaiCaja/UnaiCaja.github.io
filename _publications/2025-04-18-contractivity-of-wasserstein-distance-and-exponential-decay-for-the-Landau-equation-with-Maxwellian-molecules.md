@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/1
 excerpt: 'This paper number 1'
-date: 2025-04-18
+date: 2026-04-18
 venue: 'ArXiv'
 slidesurl: 'https://arxiv.org/abs/2504.13802'
 paperurl: 'http://unaicaja.github.io/files/contractivity_w2_Landau.pdf'
