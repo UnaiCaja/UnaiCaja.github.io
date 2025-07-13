@@ -1,7 +1,7 @@
 ---
 title: "Surface discretization in optical aspheres production"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/2
 excerpt: 'This paper is about the number 2.'
 date: 2025-06-10
