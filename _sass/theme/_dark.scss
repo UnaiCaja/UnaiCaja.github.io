@@ -51,4 +51,6 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --global-gradient-inicial           : #6587d5;
+    --global-gradient-final             : #07041b;
 }
