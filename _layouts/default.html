@@ -11,25 +11,15 @@ layout: compress
     {% include head/custom.html %}
 
     <style>
-          html {
+          html, body {
                   margin: 0;
                   background: linear-gradient(135deg, var(--global-gradient-inicial), var(--global-gradient-final)); 
-                  display: flex;
-                  justify-content: flex-start;
-                  align-items: start;
-                  /* align-items: flex-start; */
-                  font-family: sans-serif;
                   color: var(--global-text-color);
                 }
-          body {
-                  background: linear-gradient(135deg, var(--global-gradient-final), var(--global-gradient-inicial)); 
-                
-                }
           .masthead { background: var(--global-gradient-final);
-                      align-items: center;
-          }
-          .greedy-nav { background: var(--global-gradient-inicial);
-          }
+                    }
+          .visible-links { background: var(--global-gradient-final);
+                          }
     </style>
 
   </head>
