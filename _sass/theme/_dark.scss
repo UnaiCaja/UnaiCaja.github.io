@@ -3,18 +3,18 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$gray                       : #6c7175;
+$dark-gray                  : #4e5358;
+$darker-gray                : #474f55;
+$light-gray                 : #8d949a;
 
 $background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
+$background-light           : #787676;
+$background-lighter         : #262424;
 $text                       : #f5efef;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$link                       : #15b77e;
+$link-dark                  : #0a5c3f;
+$link-light                 : #78d8b6;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
