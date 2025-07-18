@@ -40,7 +40,7 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
+    --global-code-background-color      : #aba3a3;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
@@ -51,6 +51,6 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
-    --global-gradient-inicial           : #6587d5;
-    --global-gradient-final             : #07041b;
+    --global-gradient-inicial           : #afa7a7;
+    --global-gradient-final             : #403b3b;
 }
