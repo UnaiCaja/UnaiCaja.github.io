@@ -3,13 +3,13 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #575353;
+$gray                       : #020024;
 $dark-gray                  : #4e5358;
 $darker-gray                : #474f55;
 $light-gray                 : #8d949a;
 
-$background                 : #403b3b;
-$background-light           : #787676;
+$background                 : #020024;
+$background-light           : #00D4FF;
 $background-lighter         : #262424;
 $text                       : #f5efef;
 $link                       : #03b073;
@@ -51,6 +51,7 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
-    --global-gradient-inicial           : #b2acac;
-    --global-gradient-final             : #575353;
+    --global-gradient-inicial           : #020024;
+    --global-gradient-final             : #00D4FF;
 }
+
