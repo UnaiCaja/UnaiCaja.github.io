@@ -3,13 +3,13 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #020024;
+$gray                       : #131318;
 $dark-gray                  : #4e5358;
 $darker-gray                : #474f55;
-$light-gray                 : #8d949a;
+$light-gray                 : #5B7ABC;
 
-$background                 : #020024;
-$background-light           : #00D4FF;
+$background                 : #131318;
+$background-light           : #5B7ABC;
 $background-lighter         : #262424;
 $text                       : #f5efef;
 $link                       : #03b073;
@@ -40,7 +40,7 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #aba3a3;
+    --global-code-background-color      : #131318;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
@@ -51,7 +51,7 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
-    --global-gradient-inicial           : #020024;
-    --global-gradient-final             : #00D4FF;
+    --global-gradient-inicial           : #131318;
+    --global-gradient-final             : #5B7ABC;
 }
 
