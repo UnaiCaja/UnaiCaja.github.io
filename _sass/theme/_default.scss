@@ -29,14 +29,14 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #1e91be;
+    --global-bg-color                   : #02587b;
     --global-footer-bg-color            : #909797;
     --global-border-color               : #{$lighter-gray};
     --global-dark-border-color          : #1e6397;
     --global-code-background-color      : #217bab;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#1238a0,  #{$dark-gray}, 25%);
-    --global-link-color                 : #182bbe;
+    --global-link-color                 : #0b21cb;
     --global-link-color-hover           : mix(#1d996b, #133c46, 25%);
     --global-link-color-visited         : mix(#5e5b7a, #2337bb, 25%);  
     --global-masthead-link-color        : #{$dark-gray};
@@ -44,6 +44,6 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
-    --global-gradient-inicial           : #87CEEB;
-    --global-gradient-final             : #1e91be;
+    --global-gradient-inicial           : #88d1ef;
+    --global-gradient-final             : #0a86b7;
 }
