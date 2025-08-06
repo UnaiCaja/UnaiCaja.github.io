@@ -36,7 +36,7 @@ $sidebar-screen-min-width   : 1024px;
 /* Dark theme for the site */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
-    --global-bg-color                   : #030f28;
+    --global-bg-color                   : #0a1a3d;
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
