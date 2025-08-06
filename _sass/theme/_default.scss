@@ -29,7 +29,7 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #89d2ff;
+    --global-bg-color                   : #b0e1ff;
     --global-footer-bg-color            : #e2d1ce;
     --global-border-color               : #{$lighter-gray};
     --global-dark-border-color          : #92d5ff;
@@ -45,5 +45,5 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
     --global-gradient-inicial           : #eff9ff;
-    --global-gradient-final             : #c6e6fa;
+    --global-gradient-final             : #b3e2ff;
 }
