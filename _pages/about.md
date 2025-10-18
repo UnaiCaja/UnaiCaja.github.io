@@ -13,5 +13,5 @@ At the moment, my interests are focussed on the study of partial differential eq
 
 
 # Upcoming events
-* Bla
-* Bla bla
+* [Horizons in nonlinear PDEs](https://www.uni-ulm.de/en/mawi/iaa/forschung/spring-school-2026-horizons-in-nonlinear-pdes/). Institut für Angewandte Analysis, Universtität Ulm. March - 2026
+* [Partial Differential Equations for Many Particles Systems](https://icerm.brown.edu/program/topical_workshop/tw-26-mps). The Institute for Computational and Experimental Research in Mathematics. August - 2026.
