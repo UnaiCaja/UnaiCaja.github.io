@@ -7,7 +7,7 @@ excerpt: 'This paper is about the number 2.'
 date: 2025-06-10
 venue: 'Optics Express'
 slidesurl: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-12-25767&id=572789'
-paperurl: 'http://unaicaja.github.io/files/Surface_discretization.pdf'
+paperurl: 'http://unaicaja.github.io/files/publications/Surface_discretization.pdf'
 
 citation: 'Caja, F. U., Barbero, S., & González, M. D. M. (2025). Surface discretization in optical aspheres production. Optics Express, 33(12), 25767-25782.'
 ---

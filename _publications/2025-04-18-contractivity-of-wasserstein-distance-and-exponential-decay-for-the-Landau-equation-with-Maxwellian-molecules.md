@@ -7,7 +7,7 @@ excerpt: 'This paper number 1'
 date: 2025-04-18
 venue: 'ArXiv'
 slidesurl: 'https://arxiv.org/abs/2504.13802'
-paperurl: 'http://unaicaja.github.io/files/contractivity_w2_Landau.pdf'
+paperurl: 'http://unaicaja.github.io/files/publications/contractivity_w2_Landau.pdf'
 citation: 'Caja, F. U., Delgadino, M. G., Gualdani, M. P., & Taskovic, M. (2025). Contractivity of Wasserstein distance and exponential decay for the Landau equation with Maxwellian molecules. arXiv preprint arXiv:2504.13802..'
 ---
 
