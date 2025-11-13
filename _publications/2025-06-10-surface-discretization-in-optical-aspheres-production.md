@@ -9,6 +9,6 @@ venue: 'Optics Express'
 slidesurl: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-12-25767&id=572789'
 paperurl: 'http://unaicaja.github.io/files/publications/2024_Surface_discretization.pdf'
 
-citation: 'Caja, F. U., Barbero, S., & González, M. D. M. (2025). \n Optics Express, 33(12), 25767-25782.'
+citation: 'Caja, F. U., Barbero, S., & González, M. D. M. (2025). Optics Express, 33(12), 25767-25782.'
 ---
 
