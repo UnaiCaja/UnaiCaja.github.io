@@ -8,5 +8,5 @@ date: 2026-03-30
 venue: 'ArXiv'
 slidesurl: 'https://arxiv.org/abs/2603.27509'
 paperurl: 'http://unaicaja.github.io/files/publications/2026_Uniqueness_fuzzy_multiespecies_Landau.pdf'
-citation: 'Caja-Lopez, F. U., Delgadino, M. G., Gualdani, M. P., & Taskovic, M. (2025). ArXiv preprint arXiv:2603.27509.'
+citation: 'Caja-Lopez, F. U. (2026). ArXiv preprint arXiv:2603.27509.'
 ---
